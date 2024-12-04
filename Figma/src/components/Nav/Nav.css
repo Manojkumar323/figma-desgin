@@ -1,0 +1,101 @@
+      /* Nav.css */
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color:#fffcf5; /* Background color for the nav */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the nav */
+    }
+    
+    .logo-container {
+        flex: 1;
+    }
+    
+    .logo {
+        width: 100px; /* Adjust the size of the logo */
+        height: auto;
+        margin-left: 40px;
+    }
+    
+    .nav-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex: 2;
+    }
+    
+    .nav-list {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-left: 20px;
+    }
+    
+    .nav-list li {
+        margin-right: 20px; /* Space between menu items */
+    }
+    
+    .nav-list li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .nav-list li a:hover {
+        color: #007bff; /* Color on hover */
+    }
+    
+    .icons .icon-list {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    
+    }
+
+    .icons{
+        margin-right: 200px;
+        
+    }
+    
+    .icons .icon-list li {
+        margin-left: 15px; /* Space between icons */
+        font-size: 19px;
+        cursor: pointer;
+  
+    }
+  
+    
+    .icons .icon-list li:hover {
+        color: #007bff; /* Color on hover */
+    }
+
+    /* Remove underline from links */
+  a {
+    text-decoration: none;
+  }
+
+  /* Customize the carousel indicators to be round */
+  .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%; /* This makes the dots round */
+    background-color: #007bff; /* Blue color for the active dot */
+    border: 2px solid #fff; /* Add white border around the dots */
+  }
+
+  /* Customize the active carousel dot */
+  .carousel-indicators .active {
+    background-color: #ff5733; /* Change to any color you prefer */
+  }
+
+  /* Optional: Add spacing and styling to the carousel images */
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+      
+    

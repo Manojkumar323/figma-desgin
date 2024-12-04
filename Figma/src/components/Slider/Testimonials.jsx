@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './Slider.css'
-import User from './assets/images/banner.jpg'; // Example image, replace with your actual path.
+import User from '/images/banner.jpg'; // Example image, replace with your actual path.
 
 function Testimonials() {
   const settings = {

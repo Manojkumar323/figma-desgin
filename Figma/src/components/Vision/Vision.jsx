@@ -1,9 +1,9 @@
 import React from 'react'
-import User from '../assets/images/OIP.jpg'; 
+import User from '/images/banner.jpg'; 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './TinyCarts.css';
+import '../TinyCarts/TinyCarts.css';
 
 const Vision = () => {
     
